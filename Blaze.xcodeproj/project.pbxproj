@@ -11,10 +11,23 @@
 		E1E6046C2A3A0D6D00C9B5B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6046B2A3A0D6D00C9B5B9 /* ContentView.swift */; };
 		E1E6046E2A3A0D6E00C9B5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E6046D2A3A0D6E00C9B5B9 /* Assets.xcassets */; };
 		E1E604712A3A0D6E00C9B5B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E604702A3A0D6E00C9B5B9 /* Preview Assets.xcassets */; };
-		E1E604732A3A0D6E00C9B5B9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604722A3A0D6E00C9B5B9 /* Item.swift */; };
 		E1E6047D2A3A0D6E00C9B5B9 /* BlazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6047C2A3A0D6E00C9B5B9 /* BlazeTests.swift */; };
 		E1E604872A3A0D6E00C9B5B9 /* BlazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604862A3A0D6E00C9B5B9 /* BlazeUITests.swift */; };
 		E1E604892A3A0D6E00C9B5B9 /* BlazeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604882A3A0D6E00C9B5B9 /* BlazeUITestsLaunchTests.swift */; };
+		E1E604962A3A72B300C9B5B9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604952A3A72B300C9B5B9 /* Card.swift */; };
+		E1E604992A3A731100C9B5B9 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604982A3A731100C9B5B9 /* SampleData.swift */; };
+		E1E6049C2A3A747800C9B5B9 /* CardGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6049B2A3A747800C9B5B9 /* CardGalleryItem.swift */; };
+		E1E6049E2A3A74A800C9B5B9 /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6049D2A3A74A800C9B5B9 /* CardContainerView.swift */; };
+		E1E604A02A3A74CE00C9B5B9 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6049F2A3A74CE00C9B5B9 /* Design.swift */; };
+		E1E604A32A3A75D200C9B5B9 /* CardGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604A22A3A75D200C9B5B9 /* CardGallery.swift */; };
+		E1E604A52A3A778600C9B5B9 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604A42A3A778600C9B5B9 /* PreviewSampleData.swift */; };
+		E1E604A72A3A78CE00C9B5B9 /* EditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604A62A3A78CE00C9B5B9 /* EditorToolbar.swift */; };
+		E1E604A92A3A793400C9B5B9 /* FlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604A82A3A793400C9B5B9 /* FlashCardView.swift */; };
+		E1E604AB2A3A795100C9B5B9 /* CardReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604AA2A3A795100C9B5B9 /* CardReaderView.swift */; };
+		E1E604AD2A3A798000C9B5B9 /* HorizontalFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604AC2A3A798000C9B5B9 /* HorizontalFlip.swift */; };
+		E1E604AF2A3A79B100C9B5B9 /* CardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604AE2A3A79B100C9B5B9 /* CardEditorView.swift */; };
+		E1E604B12A3BDC8F00C9B5B9 /* CardCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604B02A3BDC8F00C9B5B9 /* CardCarousel.swift */; };
+		E1E604B32A3BDCF200C9B5B9 /* UTType+FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E604B22A3BDCF200C9B5B9 /* UTType+FlashCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +53,26 @@
 		E1E6046B2A3A0D6D00C9B5B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1E6046D2A3A0D6E00C9B5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1E604702A3A0D6E00C9B5B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1E604722A3A0D6E00C9B5B9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E1E604782A3A0D6E00C9B5B9 /* BlazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E6047C2A3A0D6E00C9B5B9 /* BlazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlazeTests.swift; sourceTree = "<group>"; };
 		E1E604822A3A0D6E00C9B5B9 /* BlazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E604862A3A0D6E00C9B5B9 /* BlazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlazeUITests.swift; sourceTree = "<group>"; };
 		E1E604882A3A0D6E00C9B5B9 /* BlazeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlazeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1E604952A3A72B300C9B5B9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E1E604982A3A731100C9B5B9 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		E1E6049B2A3A747800C9B5B9 /* CardGalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGalleryItem.swift; sourceTree = "<group>"; };
+		E1E6049D2A3A74A800C9B5B9 /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		E1E6049F2A3A74CE00C9B5B9 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		E1E604A22A3A75D200C9B5B9 /* CardGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGallery.swift; sourceTree = "<group>"; };
+		E1E604A42A3A778600C9B5B9 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		E1E604A62A3A78CE00C9B5B9 /* EditorToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorToolbar.swift; sourceTree = "<group>"; };
+		E1E604A82A3A793400C9B5B9 /* FlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardView.swift; sourceTree = "<group>"; };
+		E1E604AA2A3A795100C9B5B9 /* CardReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderView.swift; sourceTree = "<group>"; };
+		E1E604AC2A3A798000C9B5B9 /* HorizontalFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFlip.swift; sourceTree = "<group>"; };
+		E1E604AE2A3A79B100C9B5B9 /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
+		E1E604B02A3BDC8F00C9B5B9 /* CardCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarousel.swift; sourceTree = "<group>"; };
+		E1E604B22A3BDCF200C9B5B9 /* UTType+FlashCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+FlashCards.swift"; sourceTree = "<group>"; };
+		E1E604B42A3BE43A00C9B5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +123,11 @@
 		E1E604682A3A0D6D00C9B5B9 /* Blaze */ = {
 			isa = PBXGroup;
 			children = (
+				E1E604B42A3BE43A00C9B5B9 /* Info.plist */,
 				E1E604692A3A0D6D00C9B5B9 /* BlazeApp.swift */,
-				E1E6046B2A3A0D6D00C9B5B9 /* ContentView.swift */,
+				E1E604972A3A72BF00C9B5B9 /* Model */,
+				E1E6049A2A3A732C00C9B5B9 /* View */,
 				E1E6046D2A3A0D6E00C9B5B9 /* Assets.xcassets */,
-				E1E604722A3A0D6E00C9B5B9 /* Item.swift */,
 				E1E6046F2A3A0D6E00C9B5B9 /* Preview Content */,
 			);
 			path = Blaze;
@@ -128,6 +156,43 @@
 				E1E604882A3A0D6E00C9B5B9 /* BlazeUITestsLaunchTests.swift */,
 			);
 			path = BlazeUITests;
+			sourceTree = "<group>";
+		};
+		E1E604972A3A72BF00C9B5B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1E604952A3A72B300C9B5B9 /* Card.swift */,
+				E1E604982A3A731100C9B5B9 /* SampleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1E6049A2A3A732C00C9B5B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6046B2A3A0D6D00C9B5B9 /* ContentView.swift */,
+				E1E604B02A3BDC8F00C9B5B9 /* CardCarousel.swift */,
+				E1E604AE2A3A79B100C9B5B9 /* CardEditorView.swift */,
+				E1E604A82A3A793400C9B5B9 /* FlashCardView.swift */,
+				E1E604AA2A3A795100C9B5B9 /* CardReaderView.swift */,
+				E1E604A62A3A78CE00C9B5B9 /* EditorToolbar.swift */,
+				E1E604A22A3A75D200C9B5B9 /* CardGallery.swift */,
+				E1E6049B2A3A747800C9B5B9 /* CardGalleryItem.swift */,
+				E1E6049D2A3A74A800C9B5B9 /* CardContainerView.swift */,
+				E1E604A12A3A758C00C9B5B9 /* Support */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1E604A12A3A758C00C9B5B9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6049F2A3A74CE00C9B5B9 /* Design.swift */,
+				E1E604A42A3A778600C9B5B9 /* PreviewSampleData.swift */,
+				E1E604AC2A3A798000C9B5B9 /* HorizontalFlip.swift */,
+				E1E604B22A3BDCF200C9B5B9 /* UTType+FlashCards.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +326,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E6046C2A3A0D6D00C9B5B9 /* ContentView.swift in Sources */,
-				E1E604732A3A0D6E00C9B5B9 /* Item.swift in Sources */,
+				E1E604A02A3A74CE00C9B5B9 /* Design.swift in Sources */,
+				E1E604AB2A3A795100C9B5B9 /* CardReaderView.swift in Sources */,
+				E1E604B32A3BDCF200C9B5B9 /* UTType+FlashCards.swift in Sources */,
 				E1E6046A2A3A0D6D00C9B5B9 /* BlazeApp.swift in Sources */,
+				E1E604B12A3BDC8F00C9B5B9 /* CardCarousel.swift in Sources */,
+				E1E604A72A3A78CE00C9B5B9 /* EditorToolbar.swift in Sources */,
+				E1E6049C2A3A747800C9B5B9 /* CardGalleryItem.swift in Sources */,
+				E1E604A32A3A75D200C9B5B9 /* CardGallery.swift in Sources */,
+				E1E604AF2A3A79B100C9B5B9 /* CardEditorView.swift in Sources */,
+				E1E604A52A3A778600C9B5B9 /* PreviewSampleData.swift in Sources */,
+				E1E604992A3A731100C9B5B9 /* SampleData.swift in Sources */,
+				E1E604AD2A3A798000C9B5B9 /* HorizontalFlip.swift in Sources */,
+				E1E604A92A3A793400C9B5B9 /* FlashCardView.swift in Sources */,
+				E1E6049E2A3A74A800C9B5B9 /* CardContainerView.swift in Sources */,
+				E1E604962A3A72B300C9B5B9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +506,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Blaze/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blaze/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +535,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Blaze/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blaze/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

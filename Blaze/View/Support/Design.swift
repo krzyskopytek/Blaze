@@ -88,8 +88,8 @@ enum Design {
 
 }
 
-extension Color {
-    static let cardFront = Color("Card Front")
-    static let cardBack = Color("Card Back")
-    static let cardText = Color("Card Text")
-}
+//extension Color {
+//    static let cardFront = Color("Card Front")
+//    static let cardBack = Color("Card Back")
+//    static let cardText = Color("Card Text")
+//}

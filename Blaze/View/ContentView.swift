@@ -9,52 +9,33 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @Query private var cards: [Card]
+    @State private var editing = false
+    @State private var navigationPath: [Card] = []
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+        NavigationStack(path: $navigationPath) {
+            CardGallery(cards: cards, editing: $editing) { card in
+                withAnimation { navigationPath.append(card) }
+            } addCard: {
+                let newCard = Card(front: "Sample Front", back: "Sample Back")
+                modelContext.insert(object: newCard)
+                withAnimation {
+                    editing = true
+                    navigationPath.append(newCard)
                 }
             }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+            .padding()
+            .toolbar { EditorToolbar(isEnabled: false, editing: $editing) }
         }
     }
 }
-
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+    
+    
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .modelContainer(previewContainer)
+    }
 }

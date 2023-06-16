@@ -10,11 +10,10 @@ import SwiftData
 
 @main
 struct BlazeApp: App {
-
+    
     var body: some Scene {
-        WindowGroup {
+        DocumentGroup(editing: Card.self, contentType: .flashCards) {
             ContentView()
         }
-        .modelContainer(for: Item.self)
     }
 }
